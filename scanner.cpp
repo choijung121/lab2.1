@@ -26,7 +26,7 @@ void scanner::scan(string fileName)
         makeToken(END, line);
 
         outputFile.open("output.txt");
-        for(int i = 0; i < myVector.size(); i++)
+        for(unsigned int i = 0; i < myVector.size(); i++)
         {
             outputFile << myVector[i].print() << endl;
 
