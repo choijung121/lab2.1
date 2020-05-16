@@ -236,7 +236,7 @@ void scanner::makeToken(tokType type, int lineNum)
 
 void scanner::valueToUpper()
 {
-    for(int i = 0; i < value.length(); i++)
+    for(unsigned int i = 0; i < value.length(); i++)
     {
         valueUpper += toupper(value[i]);
     }
